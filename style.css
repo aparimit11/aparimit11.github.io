@@ -13,8 +13,8 @@ body {
 
 #profile_pic {
     float: right;
-    width: 200px; /* Adjust width to make the profile photo bigger */
-    border-radius: 50%; /* Make the profile photo appear rounded/circular */
+    width: 175px; /* Adjust width to make the profile photo bigger */
+    border-radius: 40%; /* Make the profile photo appear rounded/circular */
     margin-top: 20px; /* Adjust margin to position the photo */
 }
 
@@ -61,7 +61,7 @@ a:active, a:focus, a:hover {
 }
 
 a:visited {
-	color: blueviolet;
+	color: blue;
 }
 
 u {
