@@ -1,0 +1,6 @@
+@article{labeling_sam,
+  title={Labeling Construction, Renovation, and Demolition Waste through Segment Anything Model (SAM)},
+  author={Rafaela Orenga Panizza, Amr S Allam, Aparimit Kasliwal, Mazdak Nik-Bakht},
+  journal={Construction Research Congress},
+  year={2024}
+}
