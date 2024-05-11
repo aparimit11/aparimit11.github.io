@@ -7,7 +7,7 @@ body {
     max-width: 720px;
     margin: auto;
     padding: 1em;
-    background-color: #1a3561; 
+    background-color: #134493; 
 }
 
 
@@ -61,7 +61,7 @@ a:active, a:focus, a:hover {
 }
 
 a:visited {
-	color: green;
+	color: rgb(14, 33, 205);
 }
 
 u {
@@ -75,7 +75,7 @@ b {
 
 footer {
 	margin-top: 3rem;
-	color: #888;
+	color: #cbea19bd;
 	font-size: 0.9rem;
 	text-align: center;
 }
