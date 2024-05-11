@@ -7,7 +7,7 @@ body {
     max-width: 720px;
     margin: auto;
     padding: 1em;
-    background-color: #134493; 
+    background-color: #c0c4cb; 
 }
 
 
@@ -52,7 +52,7 @@ li {
 }
 
 a {
-	color: green;
+	color: blue;
 	text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ a:active, a:focus, a:hover {
 }
 
 a:visited {
-	color: rgb(14, 33, 205);
+	color: blueviolet;
 }
 
 u {
