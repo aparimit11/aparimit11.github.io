@@ -23,21 +23,21 @@
     <br>
 
     <p>
-        I'm a PhD Student in the <a href="https://ce.berkeley.edu/programs/sys">Systems Engineering</a> program at the University of California - Berkeley, where I'm advised by <a href="https://ce.berkeley.edu/people/faculty/martag"></a> Prof Marta Gonzalez</a> at the <a href="http://humnetlab.berkeley.edu">Human Mobility & Network Science Lab</a>. I recently completed my MS in Systems Engineering at UC Berkeley. I did my undergrad in Civil Engineering at IIT Delhi, where I was received the <a href="https://convocation.iitd.ac.in/2023/uploads/eng-brochure.pdf#page=23">Abhinav Dhupar Memorial Award</a> for the class of 2023.
+        I'm a PhD Student in the <a href="https://ce.berkeley.edu/programs/sys">Systems Engineering</a> program at the University of California - Berkeley, where I'm advised by <a href="https://ce.berkeley.edu/people/faculty/martag">Prof Marta Gonzalez</a> at the <a href="http://humnetlab.berkeley.edu">Human Mobility & Network Science Lab</a>. I recently completed my MS in Systems Engineering at UC Berkeley. I did my undergrad in Civil Engineering at IIT Delhi, where I was received the <a href="https://convocation.iitd.ac.in/2023/uploads/eng-brochure.pdf#page=23">Abhinav Dhupar Memorial Award</a> for the class of 2023.
     </p>
 
     <p>
         My research interests lie in the fields of Network Science & Transportation, with a recent focus on System Resilience. I enjoy working on problems that involve large-scale data analysis, optimization, and simulations with the aim of furthering the understanding of Complex Systems. I love to talk about research, philosophy of science, and commercial aviation.
     </p>
 
-    <h2>Projects</h2>
+    <!-- <h2>Projects</h2>
 
     <ol>
     
         <li>
             <b>Dynamic Pricing & Matching Policies for Ridesharing</b><br>
             Based on sample ride-sharing data in the city of Chicago, this work aims to understand the trends in quoted prices, the willingness of riders to pay, and their maximum waiting times. There are some areas, mainly near the Downtown Chicago region, that exhibit very high pickup and drop-off demand. Regions on the outskirts, on the other hand, have sporadic demands, so rides starting from and ending at such locations are typically priced higher. Next, based on the understanding of the aforementioned parameters, we develop a pricing policy that takes into consideration the current state of the system. If there is a rider already in the system who could potentially be matched with a new rider requesting a ride, we charge the rider less. For matching, we consider the likelihood that a rider is well-suited to match with the riders in the current state; if the likelihood is higher than a threshold, then we defer the matching to a later time. If not, we consider matching the rider with the best possible rider in the existing state. Thus, our pricing and matching policies, while stated separately, are dependent on each other. With the maximum waiting time of riders assumed to come from an exponential distribution, riders are dispatched solo in some cases if their patience is breached, thus incurring a loss to the company. Based on the dynamic state of the system as described, we propose pricing and matching policies that generate a respectable profit.<br>
-            <img src="/data/ride_sharing/pickup_count.png" alt="Project Image"><br>
+            <img src="/data/ride_sharing/pickup_count.png" alt="Project Image" style="max-width: 400px;"><br>
             <a href="/data/ride_sharing/pricing_and_matching.pdf">Paper</a> | <a href="https://github.com/aparimit11/ride_sharing">Code</a>
         </li>
 
@@ -45,12 +45,48 @@
         <li>
             <b>Modeling the Dynamics of City-Centers</b><br>
             Modern urban forms can be broadly categorized as monocentric, in which case there is a single dominant city center, or polycentric, where the city has multiple centers of attraction, all of which are roughly equally dominant. This work is an attempt to quantify these two distinct urban forms by leveraging data from the state-of-the-art <a href="https://www.pnas.org/doi/full/10.1073/pnas.1524261113">TimeGeo</a> model, which contains LBS data for synthetic agents calibrated based on real-world travel-demand data. We also use the location data for different types of facilities since the presence of facilities is a measure of attractiveness for a locality as a city center. Finally, we calculate the distances that people travel on average per day and combine that with the spatial distribution of facilities to propose three metrics to quantify monocentricism and polycentricism for two classical cities in the United States: Boston and Los Angeles.<br>
-            <img src="/data/city_centers/facilities.png" alt="Project Image"><br>
-            <a href="data/city_centers/aparimit_kasliwal_arun_sundaresan_ce263_project_final_paper.pdf">Paper</a> | <a href="https://github.com/aparimit11/city_centers/tree/main">Code</a>
+            <img src="/data/city_centers/facilities.png" alt="Project Image" style="max-width: 400px;"><br>
+            <a href="data/city_centers/aparimit_kasliwal_arun_sundaresan_ce263_project_final_paper.pdf">Paper</a> | <a href="https://github.com/aparimit11/dynamics_of_city_centers">Code</a>
         </li>
     
     
+    </ol> -->
+
+    <h2>Projects</h2>
+
+    <ol>
+
+    <li>
+        <div style="display: flex; align-items: flex-start;">
+            <div style="flex: 1;">
+                <b>Dynamic Pricing & Matching Policies for Ridesharing</b><br>
+                Based on sample ride-sharing data in the city of Chicago, this work aims to understand the trends in quoted prices, the willingness of riders to pay, and their maximum waiting times. There are some areas, mainly near the Downtown Chicago region, that exhibit very high pickup and drop-off demand. Regions on the outskirts, on the other hand, have sporadic demands, so rides starting from and ending at such locations are typically priced higher. Next, based on the understanding of the aforementioned parameters, we develop a pricing policy that takes into consideration the current state of the system. If there is a rider already in the system who could potentially be matched with a new rider requesting a ride, we charge the rider less. For matching, we consider the likelihood that a rider is well-suited to match with the riders in the current state; if the likelihood is higher than a threshold, then we defer the matching to a later time. If not, we consider matching the rider with the best possible rider in the existing state. Thus, our pricing and matching policies, while stated separately, are dependent on each other. With the maximum waiting time of riders assumed to come from an exponential distribution, riders are dispatched solo in some cases if their patience is breached, thus incurring a loss to the company. Based on the dynamic state of the system as described, we propose pricing and matching policies that generate a respectable profit.<br>
+                <a href="/data/ride_sharing/pricing_and_matching.pdf">Paper</a> | <a href="https://github.com/aparimit11/ride_sharing">Code</a>
+            </div>
+            <div style="flex: 1; padding-left: 20px;">
+                <img src="/data/ride_sharing/pickup_count.png" alt="Project Image" style="max-width: 300px;"><br>
+                <span style="font-size: small;">Figure: Pickup Count in Chicago</span>
+            </div>
+        </div>
+    </li>
+
+
+    <li>
+        <div style="display: flex; align-items: flex-start;">
+            <div style="flex: 1;">
+                <b>Modeling the Dynamics of City-Centers</b><br>
+                Modern urban forms can be broadly categorized as monocentric, in which case there is a single dominant city center, or polycentric, where the city has multiple centers of attraction, all of which are roughly equally dominant. This work is an attempt to quantify these two distinct urban forms by leveraging data from the state-of-the-art <a href="https://www.pnas.org/doi/full/10.1073/pnas.1524261113">TimeGeo</a> model, which contains LBS data for synthetic agents calibrated based on real-world travel-demand data. We also use the location data for different types of facilities since the presence of facilities is a measure of attractiveness for a locality as a city center. Finally, we calculate the distances that people travel on average per day and combine that with the spatial distribution of facilities to propose three metrics to quantify monocentricism and polycentricism for two classical cities in the United States: Boston and Los Angeles.<br>
+                <a href="data/city_centers/aparimit_kasliwal_arun_sundaresan_ce263_project_final_paper.pdf">Paper</a> | <a href="https://github.com/aparimit11/dynamics_of_city_centers">Code</a>
+            </div>
+            <div style="flex: 1; padding-left: 20px;">
+                <img src="/data/city_centers/facilities.png" alt="Project Image" style="max-width: 300px;"><br>
+                <span style="font-size: small;">Figure: Facilities in Boston</span>
+            </div>
+        </div>
+    </li>
+
     </ol>
+
     
 
     <h2>Publications</h2>
