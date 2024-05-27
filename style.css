@@ -33,6 +33,7 @@ body {
 
 .project-content {
     display: flex;
+	gap: 1rem; /* Add space between text and image content */
 }
 
 .text-content {
@@ -43,6 +44,7 @@ body {
 .image-content {
     flex: 1;
     max-width: 300px;
+	margin-left: 1rem; /* Add space between text and image */
 }
 
 .project-image {
