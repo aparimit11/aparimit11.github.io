@@ -1,0 +1,10 @@
+Ayşe Tuğba Öztürk, Aparimit Kasliwal, Helen Fitzmaurice, Olga Kavvada, Philippe Calvez, Ronald C. Cohen, Marta C. González,
+A mesoscopic model of vehicular emissions informed by direct measurements and mobility science,
+Sustainable Cities and Society,
+2025,
+106421,
+ISSN 2210-6707,
+https://doi.org/10.1016/j.scs.2025.106421.
+(https://www.sciencedirect.com/science/article/pii/S2210670725002975)
+Abstract: Vehicle emissions pose a significant challenge for cities worldwide, yet a comprehensive analysis of the relationship between mobility metrics and vehicle emissions at scale remains elusive. We introduce the Mobile Data Emission System (MODES), a framework that integrates various sources of individual mobility data on an unprecedented scale. Our model is validated with direct measurements from a network of high-density sensors analyzed before and during the COVID-19 pandemic. MODES is used as a laboratory for scaling analysis. Informed by millions of individual trips at a metropolitan scale, we estimate the traffic CO2 emissions with 3 accessible metrics: vehicle kilometers traveled (VKT), congestion, and fuel economy. This formulation is valuable because it is based on precise calculations reflecting variations in speed and acceleration. Across their ranges, VKT plays the greatest role in amplifying vehicular emissions up to 500%, followed by fuel economy that ranges from 20% to 300% of the average passenger vehicle. Comparatively, congestion amplifies emissions up to 50%. We confirm that cities in the Bay Area with high population density consistently show low per-person VKT. However, this density also increases congestion. Since VKT is the governing factor, urban densification reduces transportation emissions despite its impacts on congestion.
+Keywords: Urban emissions modeling; Sustainable cities; Mobile phone data; Transportation emissions; Urban mobility
