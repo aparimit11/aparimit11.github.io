@@ -1,7 +1,8 @@
 Ayşe Tuğba Öztürk, Aparimit Kasliwal, Helen Fitzmaurice, Olga Kavvada, Philippe Calvez, Ronald C. Cohen, Marta C. González,
 A mesoscopic model of vehicular emissions informed by direct measurements and mobility science,
 Sustainable Cities and Society,
-2025,
+Volume 129,
+July 2025,
 106421,
 ISSN 2210-6707,
 https://doi.org/10.1016/j.scs.2025.106421.
