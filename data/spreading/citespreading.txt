@@ -1,8 +1,7 @@
 Aparimit Kasliwal, Abdullah Alhadlaq, Ariel Salgado, Auroop R. Ganguly, Marta C. González,
 Hierarchical analysis of spreading dynamics in complex systems,
-Computer-Aided Civil and Infrastructure Engineering,
-Wiley,
-December 2025.
+Computer-Aided Civil and Infrastructure Engineering, 40, 6223-6241,
+Wiley, 2025.
 ISSN 1467-8667,
 https://doi.org/10.1111/mice.70165
 (http://dx.doi.org/10.1111/mice.70165)
