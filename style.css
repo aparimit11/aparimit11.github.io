@@ -27,6 +27,20 @@ body {
     display: none;
 }
 
+.blog-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.blog-list li {
+    margin: 1.5rem 0;
+}
+
+.blog-content {
+    text-align: justify;
+    margin-top: 1.5rem;
+}
+
 .news-section li {
     margin: 0.5rem 0;
 }
