@@ -41,6 +41,14 @@ body {
     margin-top: 1.5rem;
 }
 
+.blog-content h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: #000;
+}
+
 .news-section li {
     margin: 0.5rem 0;
 }
