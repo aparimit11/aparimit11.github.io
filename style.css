@@ -87,7 +87,9 @@ body {
 
 #profile_pic {
     float: right;
-    width: 175px; /* Adjust width to make the profile photo bigger */
+    width: 175px;
+    height: 175px;
+    object-fit: cover; /* This will crop the image to fit the square while maintaining aspect ratio */
     /* border-radius: 40%; Make the profile photo appear rounded/circular */
     margin-top: 10px; /* Adjust margin to position the photo */
 }
