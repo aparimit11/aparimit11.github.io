@@ -90,7 +90,7 @@ body {
     width: 175px;
     height: 175px;
     object-fit: cover; /* This will crop the image to fit the square while maintaining aspect ratio */
-    /* border-radius: 40%; Make the profile photo appear rounded/circular */
+    border-radius: 8px; /* Soften the corners slightly */
     margin-top: 10px; /* Adjust margin to position the photo */
 }
 
@@ -102,7 +102,7 @@ h1, h2 {
 
 h1 {
     font-size: 3rem;
-    margin-top: 2.0rem;
+    margin-top: 2.8rem;
     margin-bottom: 1.0rem;
     line-height: 1.0;
 }
