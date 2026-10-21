@@ -1,0 +1,16 @@
+import{H as e,L as t,T as n,X as r,Z as i,_ as a,_t as o,b as s,g as c,ht as l,v as u,y as d}from"./modules/shiki-BfJ6CqqC.js";import{nt as f,tt as p}from"./index-Ch7IkR_j.js";import{t as m}from"./slidev/default-D4lO1X4r.js";var h={class:`grid grid-cols-3 gap-4 text-sm`},g={style:{"margin-left":`30px`,"margin-top":`-10px`}},_={style:{height:`100%`}},v={style:{"margin-left":`100px`,"margin-top":`-10px`}},y={__name:`slides.web.md__slidev_5`,setup(y){let{$slidev:b,$nav:x,$clicksContext:S,$clicks:C,$page:w,$renderContext:T,$frontmatter:E}=f();return S.setup(),(f,y)=>{let b=e(`click`);return t(),a(m,o(n(l(p)(l(E),4))),{default:r(()=>[y[5]||=c(`h1`,null,`Call Detail Records (CDR) Data`,-1),u(" VERIFY: This slide had severe overlapping text boxes in the Keynote PDF export (body bullets rendered on top of panel labels/legends). Text below was reconstructed using `pdftotext -layout` on the source PDF page, which separated the columns more reliably than the flat image. Please double-check against the original Keynote file, particularly the attribution of the three left-column bullets (Clustering / Support ratio / Economic connectedness comparisons vs. Facebook/Meta) and the right-column bullets (SCI definition, distance/support ratio relationship). "),c(`div`,h,[y[4]||=c(`div`,null,[u(` - **Clustering**: CDR possibly keeps stronger ties than Facebook, which naturally form tighter local groups
+- **Support ratio**: CDR ties tend to live farther apart (figure D), decreasing the support ratio
+- **Economic connectedness**: CDR likely captures a more economically similar set of contacts `),c(`div`,{style:{"margin-left":`100px`,"margin-top":`-10px`}},`Social Network`),c(`img`,{src:`/talks/netmob26/images/cdr_1.png`,style:{display:`block`,width:`100%`,"max-height":`80%`,"object-fit":`contain`,"margin-top":`10px`}})],-1),c(`div`,null,[i((t(),d(`div`,g,[...y[0]||=[s(`Social Connectedness Index (SCI)`,-1)]])),[[b,1]]),u(` - Data for SF Bay Area spanning 7-months in 2018-19
+- Social network constructed using CDR Data
+  - Node: individual users
+  - Edge: interaction between a pair of users
+- Interaction threshold, $m$: minimum interactions required to form an edge between two users
+- Node-level metrics:
+  - Degree: number of social ties of a given user
+  - Strength: number of interactions of a given user `),i((t(),d(`div`,_,[...y[1]||=[c(`img`,{src:`/talks/netmob26/images/cdr_2.png`,style:{display:`block`,width:`100%`,"max-height":`80%`,"object-fit":`contain`,"margin-top":`10px`,"margin-left":`-5px`,height:`auto`}},null,-1)]])),[[b,1]])]),c(`div`,null,[i((t(),d(`div`,v,[...y[2]||=[s(`Social Capital Metrics`,-1)]])),[[b,2]]),u(` - Social Connectedness Index (SCI) measures the strength of social ties between a pair of regions
+
+$$
+SCI_{i,j} = \\frac{Friendships_{i,j}}{Pop_i \\times Pop_j}
+$$
+
+- Probability density distributions of friends by distance $d$, with CDR-based social ties showing structure at slightly longer distances `),i((t(),d(`div`,null,[...y[3]||=[c(`img`,{src:`/talks/netmob26/images/cdr_3.png`,style:{display:`block`,width:`100%`,"max-height":`80%`,"object-fit":`contain`,"margin-top":`10px`,"margin-left":`20px`}},null,-1)]])),[[b,2]])])])]),_:1},16)}}};export{y as default};
